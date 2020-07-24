@@ -38,7 +38,9 @@ export const layout = ({
     rightContentRender: () => <RightContent />,
     disableContentMargin: false,
     footerRender: () => <Footer />,
-    menuHeaderRender: undefined,
+    logo: "http://www.tdx-strategies.com/assets/images/logo.png",
+    title: 'tdx',
+    menuHeaderRender: false,
     ...initialState?.settings,
   };
 };

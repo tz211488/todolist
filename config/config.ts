@@ -12,7 +12,7 @@ export default defineConfig({
     hmr: true,
   },
   layout: {
-    name: 'Ant Design Pro',
+    name: 'Tdx Strategy',
     locale: true,
     siderWidth: 208,
   },
@@ -69,6 +69,12 @@ export default defineConfig({
       icon: 'table',
       path: '/list',
       component: './ListTableList',
+    },
+    {
+      name: 'todolist.today',
+      icon: 'table',
+      path: '/todolist',
+      component: './TodoList',
     },
     {
       path: '/',
